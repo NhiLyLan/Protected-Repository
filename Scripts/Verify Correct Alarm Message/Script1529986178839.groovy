@@ -6,7 +6,7 @@ import com.kms.katalon.core.util.internal.PathUtil
 
 import internal.GlobalVariable
 
-Mobile.comment('Story: Verify correct alarm message')
+Mobile.comment('Story: Update text message')
 
 Mobile.comment('Given that user has started an application')
 
