@@ -8,7 +8,7 @@ import internal.GlobalVariable
 
 Mobile.comment('Story: Update text message')
 
-Mobile.comment('Given that user has started an application')
+Mobile.comment('Mobile testing information')
 
 'Get full directory\'s path of android application'
 def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfiguration.getProjectDir())
