@@ -31,7 +31,7 @@ Mobile.comment('And he navigates the application to Activity form')
 
 Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
 
-WebUI.delay(160000)
+WebUI.delay(600)
 
 Mobile.tap(findTestObject('Application/App/android.widget.TextView - Activity'), 10)
 
