@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test align,,,,01-07-2026 15:39:04,01-07-2026 15:39:05,0.373s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,01-07-2026 15:39:04,01-07-2026 15:39:04,0.033s,PASSED
+,,,,,,,
+Test Cases/Verify Correct Alarm Message 01,,"- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Click ""START ALARM SERVICE"" and click ""STOP ALARM SERVICE"", verify alert show is correct",,01-07-2026 15:39:05,01-07-2026 15:39:05,0.015s,FAILED
+"comment(""Story: Update text message"")",,,,01-07-2026 15:39:05,01-07-2026 15:39:05,0.001s,PASSED
+"comment(""Mobile testing information"")",,,,01-07-2026 15:39:05,01-07-2026 15:39:05,0.001s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,01-07-2026 15:39:05,01-07-2026 15:39:05,0.000s,PASSED
+"startApplication(appPath, false)",,,,01-07-2026 15:39:05,01-07-2026 15:39:05,0.004s,FAILED

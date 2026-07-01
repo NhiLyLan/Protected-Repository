@@ -26,7 +26,7 @@ Mobile.scrollToText('Xfermodes')
 Mobile.comment('Then the current screen should show Xfermodes text after scrolling')
 
 'Get item\'s label'
-def itemText = Mobile.getText(findTestObject('Application/Graphics/android.widget.TextView - Xfermodes'), GlobalVariable.G_Timeout)
+def itemText = Mobile.getText(findTestObject('Application/Graphics/android.widget.TextView - Xfermodess'), GlobalVariable.G_Timeout)
 
 Mobile.verifyEqual(itemText, 'Xfermodes')
 

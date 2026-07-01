@@ -4,6 +4,7 @@
    <name>Verify Login CURA System Successfully - Mobile Browsers</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>874ad4da-fda7-412b-a221-526dfd39a022</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

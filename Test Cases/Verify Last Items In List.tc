@@ -5,5 +5,6 @@
    <name>Verify Last Items In List</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9aed9244-1fa0-4f43-a543-16a23fa60f0e</testCaseGuid>
 </TestCaseEntity>
