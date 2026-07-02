@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Chinese Suite,Chrome 149.0.7827.201,,,02-07-2026 11:46:18,02-07-2026 11:46:24,6.735s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 149.0.7827.201,,,02-07-2026 11:46:18,02-07-2026 11:46:18,0.041s,PASSED
+,,,,,,,
+Test Cases/Chinese Language,Chrome 149.0.7827.201,,,02-07-2026 11:46:18,02-07-2026 11:46:24,6.516s,PASSED
+"openBrowser(""https://www.dong-chinese.com/about"")",Chrome 149.0.7827.201,,,02-07-2026 11:46:18,02-07-2026 11:46:23,5.414s,PASSED
+maximizeWindow(),Chrome 149.0.7827.201,,,02-07-2026 11:46:23,02-07-2026 11:46:24,0.534s,PASSED
+"verifyTextPresent(""About 懂中文 Dong Chinese"", false)",Chrome 149.0.7827.201,,,02-07-2026 11:46:24,02-07-2026 11:46:24,0.256s,PASSED
+"verifyElementPresent(findTestObject(""ChinesePage/title""), 0)",Chrome 149.0.7827.201,,,02-07-2026 11:46:24,02-07-2026 11:46:24,0.251s,PASSED

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Chinese Suite" time="5.744" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Chinese Suite" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="5.744" timestamp="2026-07-02T04:53:59.547Z" hostname="nhi.ly - 10.18.43.102" id="Test Suites/Chinese Suite" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_115356/Chinese Suite/20260702_115356"/>
+         <property name="logFiles" value="/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_115356/Chinese Suite/20260702_115356/execution0.log, /Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_115356/Chinese Suite/20260702_115356/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="nhi.ly - 10.18.43.102"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.3.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.201"/>
+         <property name="userFullName" value="Nhiprod"/>
+         <property name="hostAddress" value="10.18.43.102"/>
+         <property name="sessionId" value="37cebd66ce4357a2493e68fb9839a0e5"/>
+         <property name="projectName" value="Android Mobile Tests with Katalon Studio"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Chinese Language" time="5.642" classname="Test Cases/Chinese Language" status="PASSED">
+         <system-out><![CDATA[02-07-2026T11:53:59 - [TEST_CASE][PASSED] - Test Cases/Chinese Language: Test Cases/Chinese Language
+
+02-07-2026T11:53:59 - [TEST_STEP][PASSED] - openBrowser("https://www.dong-chinese.com/about"): Browser is opened with url: 'https://www.dong-chinese.com/about'
+
+02-07-2026T11:53:59 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-07-2026T11:53:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-07-2026T11:54:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.dong-chinese.com/about'
+
+02-07-2026T11:54:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-07-2026T11:54:04 - [MESSAGE][PASSED] - Current window maximized
+
+02-07-2026T11:54:04 - [TEST_STEP][PASSED] - verifyTextPresent("About 懂中文 Dong Chinese", false): Text 'About 懂中文 Dong Chinese' is present on page 
+
+02-07-2026T11:54:05 - [MESSAGE][PASSED] - Text 'About 懂中文 Dong Chinese' is present on page 
+
+02-07-2026T11:54:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ChinesePage/title"), 0): Object 'Object Repository/ChinesePage/title' is present
+
+02-07-2026T11:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+02-07-2026T11:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/ChinesePage/title' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-07-2026T11:53:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+02-07-2026T11:53:59 - [TEST_STEP][PASSED] - KatalonHelper.updateInfo(): null
+
+02-07-2026T11:53:59 - [TEST_SUITE][PASSED] - Chinese Suite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

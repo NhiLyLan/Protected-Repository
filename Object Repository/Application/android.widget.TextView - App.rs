@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -191,5 +192,11 @@
       <webElementGuid>77b1270f-a231-44d8-960b-e4171659904b</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.TextView' and (@text = 'App' or . = 'App') and @resource-id = 'android:id/text1']</locator>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locatorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//XCUIElementTypeOther[contains(@name,'RESET APP STATE')])[1]</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

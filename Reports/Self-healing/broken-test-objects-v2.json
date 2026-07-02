@@ -1,14 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Application/android.widget.TextView - App",
-      "brokenLocator": "//*[@class \u003d \u0027android.widget.TextView\u0027 and (@text \u003d \u0027App\u0027 or . \u003d \u0027App\u0027) and @resource-id \u003d \u0027android:id/text1\u0027]",
-      "brokenLocatorMethod": "ATTRIBUTES",
-      "proposedLocator": "(//XCUIElementTypeOther[contains(@name,\u0027RESET APP STATE\u0027)])[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/Self-healing/Object Repository/Application/android.widget.TextView - App_XPATH.png"
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }
