@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test align,,,,01-07-2026 17:35:28,01-07-2026 17:45:58,10m - 30.189s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,01-07-2026 17:35:28,01-07-2026 17:35:28,0.035s,PASSED
+,,,,,,,
+Test Cases/Verify Correct Alarm Message 01,,"- An automation script to help user getting started with Mobile automation testing.
+- Script Content: Click ""START ALARM SERVICE"" and click ""STOP ALARM SERVICE"", verify alert show is correct",,01-07-2026 17:35:28,01-07-2026 17:45:57,10m - 29.732s,FAILED
+"comment(""Story: Update text message"")",,,,01-07-2026 17:35:28,01-07-2026 17:35:28,0.025s,PASSED
+"comment(""Mobile testing information"")",,,,01-07-2026 17:35:28,01-07-2026 17:35:28,0.003s,PASSED
+"appPath = relativeToAbsolutePath(G_AppPath, getProjectDir())",,Get full directory's path of android application,,01-07-2026 17:35:28,01-07-2026 17:35:28,0.037s,PASSED
+"startApplication(appPath, false)",,,,01-07-2026 17:35:28,01-07-2026 17:35:52,23.824s,PASSED
+"comment(""And he navigates the application to Activity form"")",,,,01-07-2026 17:35:52,01-07-2026 17:35:52,0.005s,PASSED
+"tap(findTestObject(""Application/android.widget.TextView - App""), 10)",,,,01-07-2026 17:35:52,01-07-2026 17:35:56,4.209s,PASSED
+delay(600),,,,01-07-2026 17:35:56,01-07-2026 17:45:56,10m - 0.047s,PASSED
+"tap(findTestObject(""Application/App/android.widget.TextView - Activity""), 10)",,,,01-07-2026 17:45:56,01-07-2026 17:45:57,1.505s,FAILED

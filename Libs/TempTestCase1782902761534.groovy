@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/v5/m_lltmb50lv_4vk4dq9ptbl80000gp/T/Katalon/20260701_172244/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/v5/m_lltmb50lv_4vk4dq9ptbl80000gp/T/Katalon/20260701_174601/execution.properties')
 
 TestCaseMain.beforeStart()
 TestCaseMain.runWSVerificationScript(new TestCaseBinding('',[:]), '', FailureHandling.STOP_ON_FAILURE, true)

@@ -31,10 +31,10 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260701_171200/test align/20260701_171210/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260701_173517/test align/20260701_173524/execution.properties")
 
 TestCaseMain.beforeStart()
 
 new ExecutionMain().init();
 
-TestCaseMain.startTestSuite('Test Suites/test align', suiteProperties, new File("/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260701_171200/test align/20260701_171210/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/test align', suiteProperties, new File("/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260701_173517/test align/20260701_173524/testCaseBinding"))
