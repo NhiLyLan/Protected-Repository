@@ -1,0 +1,27 @@
+2026-07-02 13:38:18.954 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/159/0/.cp/resources/logback/logback-execution.xml
+2026-07-02 13:38:18.955 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-07-02 13:38:19.359 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Chinese Suite
+2026-07-02 13:38:19.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Nhiprod
+2026-07-02 13:38:19.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Android Mobile Tests with Katalon Studio
+2026-07-02 13:38:19.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = nhi.ly - 10.18.43.102
+2026-07-02 13:38:19.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-07-02 13:38:19.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.18.43.102
+2026-07-02 13:38:19.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.3.0.0
+2026-07-02 13:38:19.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-02 13:38:19.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Chinese Language
+2026-07-02 13:38:19.525 DEBUG testcase.Chinese Language                - 1: openBrowser("https://www.dong-chinese.com/about")
+2026-07-02 13:38:19.699 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-07-02 13:38:19.718 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-02 13:38:22.449 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 99b864a001439a9b9e524d169c1fd23d
+2026-07-02 13:38:22.450 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.201
+2026-07-02 13:38:22.450 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-07-02 13:38:22.450 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-02 13:38:22.453 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-02 13:38:24.443 DEBUG testcase.Chinese Language                - 2: maximizeWindow()
+2026-07-02 13:38:24.973 DEBUG testcase.Chinese Language                - 3: verifyTextPresent("About 懂中文 Dong Chinese", false)
+2026-07-02 13:38:25.233 DEBUG testcase.Chinese Language                - 4: verifyElementPresent(findTestObject("ChinesePage/title"), 0)
+2026-07-02 13:38:25.259 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-07-02 13:38:25.585 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Chinese Language
+2026-07-02 13:38:25.707 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-02 13:38:25.709 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Chinese Suite
+2026-07-02 13:38:25.709 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

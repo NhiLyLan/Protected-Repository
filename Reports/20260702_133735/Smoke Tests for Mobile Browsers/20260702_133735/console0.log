@@ -1,0 +1,39 @@
+2026-07-02 13:37:39.408 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/159/0/.cp/resources/logback/logback-execution.xml
+2026-07-02 13:37:39.413 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-07-02 13:37:39.998 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Smoke Tests for Mobile Browsers
+2026-07-02 13:37:40.050 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Nhiprod
+2026-07-02 13:37:40.051 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Android Mobile Tests with Katalon Studio
+2026-07-02 13:37:40.052 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = nhi.ly - 10.18.43.102
+2026-07-02 13:37:40.053 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-07-02 13:37:40.053 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.18.43.102
+2026-07-02 13:37:40.054 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.3.0.0
+2026-07-02 13:37:40.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-02 13:37:40.307 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Verify Login CURA System Successfully - Mobile Browsers
+2026-07-02 13:37:40.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-07-02 13:37:40.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM
+2026-07-02 13:37:40.395 DEBUG RA System Successfully - Mobile Browsers - 1: comment("Story: Login to CURA system")
+2026-07-02 13:37:40.437 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Story: Login to CURA system
+2026-07-02 13:37:40.438 DEBUG RA System Successfully - Mobile Browsers - 2: comment("Given that the user has the valid login information")
+2026-07-02 13:37:40.441 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Given that the user has the valid login information
+2026-07-02 13:37:40.441 DEBUG RA System Successfully - Mobile Browsers - 3: openBrowser(G_SiteURL)
+2026-07-02 13:37:40.581 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-07-02 13:37:40.601 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-02 13:37:43.275 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = be4a691a873b4ef369034db406a5428d
+2026-07-02 13:37:43.276 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.201
+2026-07-02 13:37:43.276 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-07-02 13:37:43.276 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-02 13:37:43.279 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-02 13:37:46.058 DEBUG RA System Successfully - Mobile Browsers - 4: click(findTestObject("Web Browser/btn_MakeAppointment"))
+2026-07-02 13:37:47.358 DEBUG RA System Successfully - Mobile Browsers - 5: setText(findTestObject("Web Browser/txt_Username"), Username)
+2026-07-02 13:37:48.093 DEBUG RA System Successfully - Mobile Browsers - 6: setEncryptedText(findTestObject("Web Browser/txt_Password"), Password)
+2026-07-02 13:37:48.397 DEBUG RA System Successfully - Mobile Browsers - 7: comment("When he logins to CURA system")
+2026-07-02 13:37:48.398 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - When he logins to CURA system
+2026-07-02 13:37:48.399 DEBUG RA System Successfully - Mobile Browsers - 8: click(findTestObject("Web Browser/btn_Login"))
+2026-07-02 13:37:48.907 DEBUG RA System Successfully - Mobile Browsers - 9: comment("Then he should be able to login successfully")
+2026-07-02 13:37:48.909 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Then he should be able to login successfully
+2026-07-02 13:37:48.909 DEBUG RA System Successfully - Mobile Browsers - 10: verifyTextPresent("Make Appointment", false)
+2026-07-02 13:37:50.004 DEBUG RA System Successfully - Mobile Browsers - 11: closeBrowser()
+2026-07-02 13:37:50.112 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Verify Login CURA System Successfully - Mobile Browsers
+2026-07-02 13:37:50.128 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-02 13:37:50.128 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Smoke Tests for Mobile Browsers
+2026-07-02 13:37:50.128 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

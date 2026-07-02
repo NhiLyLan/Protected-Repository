@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Mobile Browsers" time="10.076" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Smoke Tests for Mobile Browsers" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="10.076" timestamp="2026-07-02T06:37:40.037Z" hostname="nhi.ly - 10.18.43.102" id="Test Suites/Smoke Tests for Mobile Browsers" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_133735/Smoke Tests for Mobile Browsers/20260702_133735"/>
+         <property name="logFiles" value="/Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_133735/Smoke Tests for Mobile Browsers/20260702_133735/execution0.log, /Users/nhi.ly/Documents/Work/Repository_Katalon/Protected-Repository/Reports/20260702_133735/Smoke Tests for Mobile Browsers/20260702_133735/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;John Doe&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;Username&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;Password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="nhi.ly - 10.18.43.102"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.3.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.201"/>
+         <property name="userFullName" value="Nhiprod"/>
+         <property name="hostAddress" value="10.18.43.102"/>
+         <property name="sessionId" value="be4a691a873b4ef369034db406a5428d"/>
+         <property name="projectName" value="Android Mobile Tests with Katalon Studio"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Verify Login CURA System Successfully - Mobile Browsers" time="9.806" classname="Test Cases/Verify Login CURA System Successfully - Mobile Browsers" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"John Doe","Password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"}]]></property>
+         </properties>
+         <system-out><![CDATA[02-07-2026T13:37:40 - [TEST_CASE][PASSED] - Test Cases/Verify Login CURA System Successfully - Mobile Browsers: Test Cases/Verify Login CURA System Successfully - Mobile Browsers
+
+02-07-2026T13:37:40 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+02-07-2026T13:37:40 - [MESSAGE][INFO] - Story: Login to CURA system
+
+02-07-2026T13:37:40 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+02-07-2026T13:37:40 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+02-07-2026T13:37:40 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+02-07-2026T13:37:40 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-07-2026T13:37:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-07-2026T13:37:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+02-07-2026T13:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Web Browser/btn_MakeAppointment")): Object: 'Object Repository/Web Browser/btn_MakeAppointment' is clicked on
+
+02-07-2026T13:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Browser/btn_MakeAppointment' is clicked on
+
+02-07-2026T13:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Web Browser/txt_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Web Browser/txt_Username'
+
+02-07-2026T13:37:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Web Browser/txt_Username'
+
+02-07-2026T13:37:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web Browser/txt_Password"), Password): Text ****** has been set on object 'Object Repository/Web Browser/txt_Password'
+
+02-07-2026T13:37:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web Browser/txt_Password'
+
+02-07-2026T13:37:48 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+02-07-2026T13:37:48 - [MESSAGE][INFO] - When he logins to CURA system
+
+02-07-2026T13:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Web Browser/btn_Login")): Object: 'Object Repository/Web Browser/btn_Login' is clicked on
+
+02-07-2026T13:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Browser/btn_Login' is clicked on
+
+02-07-2026T13:37:48 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+02-07-2026T13:37:48 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+02-07-2026T13:37:48 - [TEST_STEP][PASSED] - verifyTextPresent("Make Appointment", false): Text 'Make Appointment' is present on page 
+
+02-07-2026T13:37:50 - [MESSAGE][PASSED] - Text 'Make Appointment' is present on page 
+
+02-07-2026T13:37:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-07-2026T13:37:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-07-2026T13:37:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+02-07-2026T13:37:40 - [TEST_STEP][PASSED] - KatalonHelper.updateInfo(): null
+
+02-07-2026T13:37:40 - [TEST_SUITE][PASSED] - Smoke Tests for Mobile Browsers: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
